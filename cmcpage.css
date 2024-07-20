@@ -1,0 +1,121 @@
+.top_link {
+  font-size:25px;
+  margin-left:30px;
+}
+
+
+body{
+  display:flex;
+  text-align: center;
+  justify-content: center;
+  background-color: grey;
+  margin:0;
+  padding:0;
+}
+
+
+.middle{
+  height: 100vh;
+  
+  background-color: #CAE3D7;
+}
+
+#description{
+  padding: 16px;
+  text-align:left;
+  background-color: #CAE3D7;
+}
+#pagesbord{
+  padding:16px;
+  background-color: #CAE3D7;
+  text-align:left;
+}
+
+#pages{
+  padding: 8px;
+  border: 2px solid black;
+}
+
+#comictitle{
+  font-size: 64px;
+  border: 0px solid black;
+  margin:0px;
+  padding:0px;
+  margin-top: 16px;
+}
+
+
+.gbicon{
+  height: 225px;
+  border: 2px solid black;
+}
+.linkk{
+  margin: 6px;
+  color: black;
+  padding: 2px;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-shadow: 2px 0px #E5A14E, 2px 2px #E5A14E, 0px 2px #E5A14E, -2px -2px #FFE375, 2px -2px #FFE375, -2px 2px #FFE375 , -2px 2px #FFE375  ;
+  background-color: #FCC145;
+  font-size: 20px;
+  
+}
+#gbpublishingtitle{
+  margin: 70px;
+  font-size: 70px;
+  font-weight: Bold;
+}
+
+.linkshold{
+  display:flex;
+  background-color: #65AF8C;
+}
+
+.home{
+  display:block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size:35px;
+}
+
+p{
+  font-size: 24px;
+  margin: 0px;
+}
+
+.chapter-name{
+  display: block;
+  font-size: 25px;
+  margin-bottom:30px;
+}
+
+.comic-title{
+  padding:0;
+  margin-left: 50px;
+  align-content: center;
+}
+.chapter-link{
+  display: block;
+  margin-bottom:15px;
+  font-size: 25px;
+}
+
+.both{
+  display: flex;
+  justify-content: center;
+}
+
+.topbar{
+  background-color: lightgrey;
+  height: 100px;
+  display:flex;
+}
+
+
+.right{
+  width: 350px;
+  background-color: lightgrey;
+}
+.left{
+  flex: 1;
+}

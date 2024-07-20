@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galaxy Brain Comic</title>
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <body>
+  <img src="https://i.postimg.cc/4XvWxbGr/12.png" alt="Page 12"/>
+  
+  <a href="https://gbpublishing.neocities.org/gb/11" class="xl">&lt;</a>
+  <a href="https://gbpublishing.neocities.org/gb/13" class="xr">&gt;</a>
+  <h1 class="CHAPTERNAMEANDTITLE">Chapter 12: It's A Long Way From Home</h1>
+  <a href="https://gbpublishing.neocities.org/gb/gb.html" class="home"> Home </a>
+  
+  <script>
+    document.onkeydown = checkKey;
+    
+    function checkKey(e) {
+
+    e = e || window.event;
+
+    if (e.keyCode == '38') {
+        // up arrow
+    }
+    else if (e.keyCode == '40') {
+        // down arrow
+    }
+    else if (e.keyCode == '37') {
+       // left arrow
+       // Simulate an HTTP redirect:
+       window.location.replace("https://gbpublishing.neocities.org/gb/11");
+    }
+    else if (e.keyCode == '39') {
+       // right arrow
+       // Simulate an HTTP redirect:
+       window.location.replace("https://gbpublishing.neocities.org/gb/13");
+    }
+
+}
+
+  </script>
+  
+  
+  </body>
+</html>

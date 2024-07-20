@@ -1,0 +1,54 @@
+body{
+  display:flex;
+  justify-content: center;
+  background-color: grey;
+  margin:0;
+}
+
+.bottom{
+  padding: 10px;
+  background-color: #CAE3D7;
+}
+
+.left{
+  padding: 10px;
+}
+.middle{
+  width: 1000px;
+  height: 100vh;
+  padding-bottom: 1vh;
+  background-color: #CAE3D7;
+}
+
+.linkshold{
+  display:flex;
+  background-color: #65AF8C;
+}
+
+.iconhold{
+  display:flex;
+  padding: 5px;
+  height: 225px;
+  align-items: center;
+}
+.gbicon{
+  height: 225px;
+  border: 2px solid black;
+}
+.linkk{
+  margin: 6px;
+  color: black;
+  padding: 2px;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-shadow: 2px 0px #E5A14E, 2px 2px #E5A14E, 0px 2px #E5A14E, -2px -2px #FFE375, 2px -2px #FFE375, -2px 2px #FFE375 , -2px 2px #FFE375  ;
+  background-color: #FCC145;
+  font-size: 20px;
+  
+}
+#gbpublishingtitle{
+  margin: 70px;
+  font-size: 70px;
+  font-weight: Bold;
+  text-shadow: 60px 60px #FCC145, -60px -60px #65AF8C;
+}

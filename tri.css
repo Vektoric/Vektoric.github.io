@@ -1,0 +1,120 @@
+.top_link {
+  font-size:25px;
+  margin-left:30px;
+}
+
+
+body{
+  display:flex;
+  text-align: center;
+  justify-content: center;
+  background-color: #CAE3D7;
+  margin:0;
+  padding:0;
+}
+.Hephaestus{
+  position: relative;
+  margin-bottom:550px;
+}
+.Circle{
+  position:absolute;
+  top:50vh;
+  transform: translate(-50%, -50%);
+}
+
+#ib{
+  position: absolute;
+  transform-origin: center;
+  top: 50%; 
+  left:50%;
+  animation: revolve 15s linear infinite; /* Animation name, duration, timing function, and iteration count */
+  animation-delay: -10s;
+}
+#fb{
+  position: absolute;
+  transform-origin: center;
+  top: 50%; 
+  left:50%;
+  animation: revolve 15s linear infinite; /* Animation name, duration, timing function, and iteration count */
+  animation-delay: 0s;
+}
+
+#hb{
+  position: absolute;
+  transform-origin: center;
+  top: 50%; 
+  left:50%;
+  animation: revolve 15s linear infinite; /* Animation name, duration, timing function, and iteration count */
+  animation-delay: -5s;
+}
+@keyframes revolve {
+    0% {
+        transform: translate(-50%, -50%)rotate(0deg) translateX(260px) rotate(0deg);
+    }
+    100% {
+        transform: translate(-50%, -50%)rotate(360deg) translateX(260px) rotate(-360deg);
+    }
+}
+
+
+.middle{
+  height: 100vh;
+  width: 1000px;
+  background-color: #CAE3D7;
+}
+
+#comictitle{
+  font-size: 64px;
+  border: 0px solid black;
+  margin:0px;
+  padding:0px;
+  margin-top: 16px;
+}
+
+.gbicon{
+  height: 225px;
+  border: 2px solid black;
+}
+.linkk{
+  margin: 6px;
+  color: black;
+  padding: 2px;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-shadow: 2px 0px #E5A14E, 2px 2px #E5A14E, 0px 2px #E5A14E, -2px -2px #FFE375, 2px -2px #FFE375, -2px 2px #FFE375 , -2px 2px #FFE375  ;
+  background-color: #FCC145;
+  font-size: 20px;
+  
+}
+
+#gbpublishingtitle{
+  margin: 70px;
+  font-size: 70px;
+  font-weight: Bold;
+}
+
+.linkshold{
+  display:flex;
+  background-color: #65AF8C;
+  margin-bottom:120px;
+}
+
+.home{
+  display:block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size:35px;
+}
+
+p{
+  font-size: 24px;
+  margin: 0px;
+}
+
+
+.topbar{
+  background-color: lightgrey;
+  height: 100px;
+  display:flex;
+}
+

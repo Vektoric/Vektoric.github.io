@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galaxy Brain Comic</title>
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <body>
+    <video width="640" id="myVideo" autoplay loop>
+        <source src="https://cdn.discordapp.com/attachments/1065684593841295391/1261296170479910912/27.mp4?ex=66927118&amp;is=66911f98&amp;hm=658e7ef1be21e276fe0fd758cf3199dddc9fb70b7de1d8b63f389f22f562c4a9&amp;" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+  <div id = "chap27div">
+  <img class ="chap27image" src="https://i.postimg.cc/sD8BWrR1/JOHN.jpg" alt="Page 27"/> 
+  </div>
+  <a href="https://gbpublishing.neocities.org/gb/26" class="xl">&lt;</a>
+  <a href="#" onclick="playVideo(); return false;" class = "xr">&gt;</a>
+  <h1 class="CHAPTERNAMEANDTITLE">Chapter 27: John Ceo Blues</h1>
+  <a href="https://gbpublishing.neocities.org/gb/gb.html" class="home"> Home </a>
+  
+  <script>
+    document.onkeydown = checkKey;
+    var count = 0
+        function playVideo() {
+             if (count == 1) {
+                window.location.replace("https://gbpublishing.neocities.org/gb/28");
+               
+             }
+             if (count == 0) {
+              var divid = document.getElementById('chap27div');
+              divid.remove();
+             }
+            var video = document.getElementById('myVideo');
+            video.play();
+            count = count + 1
+        }
+    function checkKey(e) {
+
+    e = e || window.event;
+
+    if (e.keyCode == '38') {
+        // up arrow
+    }
+    else if (e.keyCode == '40') {
+        // down arrow
+    }
+    else if (e.keyCode == '37') {
+       // left arrow
+       // Simulate an HTTP redirect:
+       window.location.replace("https://gbpublishing.neocities.org/gb/26");
+    }
+    else if (e.keyCode == '39') {
+       // right arrow
+       // Simulate an HTTP redirect:
+       playVideo();
+    }
+
+}
+
+  </script>
+  
+  
+  </body>
+</html>
